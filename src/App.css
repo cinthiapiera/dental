@@ -12,17 +12,16 @@
   --link-active: #83B3C0;
   --card-bg: linear-gradient(
     45deg,
-    rgba(15, 18, 61, 1) 33%,
-    rgba(15, 18, 61, 1) 52%,
-    rgba(11, 41, 69, 1) 84%
+    rgba(68,121,135,1) 57%,
+    rgba(131,179,192,1) 85%
   );
   --counter-color: linear-gradient(
     90deg,
-    #2f9bd0 35%,
-    #83B3C0 55%,
-    #447987 75%
+    rgba(47,155,208,1) 25%,
+    rgba(131,179,192,1) 50%,
+    rgba(68,121,135,1) 85%
   );
-  --body-bg: rgba(20, 52, 81, 1);
+  --body-bg: #143452;
   --newsletter-bg: linear-gradient(
     90deg,
     rgba(27, 9, 115, 1) 20%,
@@ -32,7 +31,7 @@
   --testimonial-bg: #1a0f4f;
   --font-name: "Poppins", sans-serif;
   --small-text-color: rgba(255, 255, 255, 0.774);
-  --icon-bg:#151e4f;
+  --icon-bg:#447987;
 }
 
 .light-theme {
@@ -75,6 +74,7 @@ a{
 
 h1, h2{
   color: var(--heading-color);
+  font-size: 1.5rem;
 }
 
 section{
@@ -91,4 +91,11 @@ section{
   color: var(--small-text-color);
   line-height: 30px;
   font-size: 0.9rem;
+}
+
+.subtitle{
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-bottom: 20px;
 }
