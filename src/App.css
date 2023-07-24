@@ -6,7 +6,7 @@
   --primary-color: #83B3C0;;
   --heading-color: #fff;
   --btn-primary-bg: #83B3C0;
-  --btn-secondary-bg: #090238;
+  --btn-secondary-bg: #447987;
   --team-card-bg: #1b2352;
   --link-color: #fff;
   --link-active: #83B3C0;
@@ -51,10 +51,10 @@
     rgba(193, 243, 255, 1) 50%,
     rgba(226, 250, 255, 1) 78%
   );
-  /*--small-text-color:#000;
+  -small-text-color:#000;
   --card-bg:#fff;
   --testimonial-bg: #f7f7f7;
-  --team-card-bg: #fff;*/
+  --team-card-bg: #fff;
 }
 
 *{
