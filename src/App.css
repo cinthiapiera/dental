@@ -3,7 +3,7 @@
 
 /* css variables*/
 :root {
-  --primary-color: #83B3C0;;
+  --primary-color: #83B3C0;
   --heading-color: #fff;
   --btn-primary-bg: #83B3C0;
   --btn-secondary-bg: #447987;
@@ -18,9 +18,9 @@
   );
   --counter-color: linear-gradient(
     90deg,
-    #02bba6 30%,
-    rgba(29, 129, 176, 1) 55%,
-    rgba(35, 93, 173, 1) 75%
+    #2f9bd0 35%,
+    #83B3C0 55%,
+    #447987 75%
   );
   --body-bg: rgba(20, 52, 81, 1);
   --newsletter-bg: linear-gradient(
