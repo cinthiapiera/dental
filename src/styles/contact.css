@@ -1,0 +1,26 @@
+.newsletter{
+    background: var(--newsletter-bg);
+}
+
+.newsletter__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter__content, .newsletter__social{
+    width: 50%;
+}
+
+.newsletter__social  span a i{
+    color: var(--primary-color);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.newsletter__social{
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

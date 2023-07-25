@@ -17,7 +17,7 @@
   );
   --counter-color: linear-gradient(
     90deg,
-    rgba(47,155,208,1) 25%,
+    rgba(47, 155, 208) 25%,
     rgba(131,179,192,1) 50%,
     rgba(68,121,135,1) 85%
   );

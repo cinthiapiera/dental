@@ -5,6 +5,7 @@ import Counter from './components/UI/Counter';
 import Services from './components/UI/Services';
 import About from './components/UI/About';
 import Testimonial from './components/UI/Testimonial';
+import Contact from './components/UI/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
          <About/>
          <Services/>
          <Testimonial/>
+         <Contact/>
         </>
   );
 }
