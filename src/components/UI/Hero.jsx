@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="hero__content">
             <div>
               <h2>Obtenga ayuda y atención experta en cada visita.</h2>
-              <h2 className='highlight'>Valoramos y escuchamos las necesidades específicas de nuestros clientes.</h2>
+              <h2 className="highlight">Valoramos y escuchamos las necesidades específicas de nuestros clientes.</h2>
             </div>
             <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione inventore eos illum similique voluptatibus? Doloremque ipsum ad quis, deleniti sapiente cumque recusandae, placeat, maxime blanditiis fuga quisquam velit cum!</p>
           

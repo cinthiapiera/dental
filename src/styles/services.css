@@ -3,6 +3,10 @@
     margin-bottom: 50px;    
 }
 
+.service__top-content .highligth{
+    color: var(--primary-color);
+}
+
 .service__item-wrapper{
     display: flex;
     flex-wrap: wrap;
