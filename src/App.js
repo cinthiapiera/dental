@@ -4,6 +4,7 @@ import Hero from './components/UI/Hero';
 import Counter from './components/UI/Counter';
 import Services from './components/UI/Services';
 import About from './components/UI/About';
+import Testimonial from './components/UI/Testimonial';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
          <Counter/>
          <About/>
          <Services/>
+         <Testimonial/>
         </>
   );
 }
