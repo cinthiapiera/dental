@@ -4,34 +4,39 @@ import '../../styles/services.css';
 const serviceData=[
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 1 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
+    title: 'Rehabilitación Oral',
+    desc: 'Se compone de un tratamiento integral a través de prótesis fijas, removibles, implantes dentales y oclusión.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 2 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
+    title: 'Ortodoncia',
+    desc: 'Se encarga de los problemas de los dientes y la mandíbula, corrigiéndolo con dispositivos fijos: brackets convecionales, brackets autoligantes y ortolingual.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 3 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
+    title: 'Odontopediatría',
+    desc: 'Se basa en el cuidado de los dientes de los niños desde su nacimiento hasta que entran a la pubertad.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 4 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
+    title: 'Periodoncia',
+    desc: 'Se encarga de la prevención, detención y tratamiento de las enfermedades que pueden afectar al tejido que le brindan soporte a los dientes.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 5 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
+    title: 'Estética Dental',
+    desc: 'Se encarga de solucionar problemas relacionados con la salud bucal y la armonía estética de la boca.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Lorem 6 ',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim sunt veniam in culpa dicta commodi incidunt eos exercitationem sit.'
-  }  
+    title: 'Implantología',
+    desc: 'Se dedica al reemplazo de dientes perdidos mediante la colocación quirúrgica de un implante dental.'
+  },
+  {
+    icon: 'ri-arrow-left-up-line',
+    title: 'Cirugía Oral',
+    desc: 'Se encarga de procedimientos quirúrgicos en la boca y en la mandíbula.'
+  }
 ]
 
 const Services = () => {

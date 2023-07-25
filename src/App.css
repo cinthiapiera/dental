@@ -17,16 +17,14 @@
   );
   --counter-color: linear-gradient(
     90deg,
-    rgba(47, 155, 208) 25%,
     rgba(131,179,192,1) 50%,
     rgba(68,121,135,1) 85%
   );
-  --body-bg: #143452;
+  --body-bg: rgb(20, 52, 82);
   --newsletter-bg: linear-gradient(
     90deg,
-    rgba(27, 9, 115, 1) 20%,
-    rgba(23, 9, 96, 1) 38%,
-    rgba(14, 9, 56, 1) 100%
+    rgba(68,121,135,1) 55%,
+    rgba(131,179,192,1) 90%
   );
   --testimonial-bg: #447987;
   --font-name: "Poppins", sans-serif;
