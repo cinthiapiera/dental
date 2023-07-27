@@ -31,12 +31,17 @@
     color: var(--primary-color);
 }
 
-.ligth__mode span{
+.light__mode span{
     color: #fff;
     display: flex;
     align-items: center;
     column-gap: 0.4rem;
     font-size: 0.8rem;
+}
+
+.light-theme .light__mode span{
+    color: #000;
+    font-weight: 500;
 }
 
 .header__shrink{

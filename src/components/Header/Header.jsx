@@ -21,7 +21,10 @@ const nav__links = [
   }
 ]
 
-const Header = () => {
+const Header = ({theme, toogleTheme}) => {
+  console.log("estoy aqui")
+  console.log(theme, toogleTheme);
+
   return (
     <header className="header">
       <div className="container">
@@ -35,7 +38,7 @@ const Header = () => {
             <ul className="menu">
               {
                 nav__links.map((item,index)=>(
-                  <li className="menu__item">
+                  <li className="menu__item" key={index} >
                     <a href={item.path} className="menu__link">
                       {item.display}
                     </a>
@@ -46,10 +49,15 @@ const Header = () => {
           </div>
 
           {/* modo oscuro */}
-          <div className="ligth__mode">
-            <span><i class="ri-sun-line"></i>Ligth Mode</span>
+          <div className="light__mode">
+            <span onClick={toogleTheme}>
+              {
+                theme === "light-theme" ? 
+                (<span><i className="ri-moon-line"></i>Modo Oscuro</span>) : 
+                (<span><i className="ri-sun-line"></i>Modo Claro</span>)
+              }
+            </span>
           </div>
-
         </div>
       </div>
     </header>

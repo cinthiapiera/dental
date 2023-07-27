@@ -1,3 +1,5 @@
+import React, {useState, useEffect} from 'react';
+
 import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/UI/Hero';
@@ -9,10 +11,21 @@ import Contact from './components/UI/Contact';
 import Footer from './components/UI/Footer';
 
 function App() {
+
+  const [theme, setTheme] = useState("");
+
+  const toggleTheme = () => {
+    theme === "" ? setTheme("light-theme") : setTheme("");
+  }
+
+  useEffect(()=>{
+    document.body.className = theme;
+  },[theme]);
+
   return (
         <>
-         <Header/>
-         <Hero/>
+         <Header theme={theme} toggleTheme={toggleTheme} />
+         <Hero theme={theme} />
          <Counter/>
          <About/>
          <Services/>
