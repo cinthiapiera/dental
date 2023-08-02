@@ -29,8 +29,8 @@ const About = () => {
           <div className="about__content">
 
             <h6 className="subtitle">Por qué somos tu mejor opción</h6>
-            <h2>¡Descubre con nosotros el arte de sonreír</h2>
-            <h2 className="highligth">en nuestro consultorio dental!</h2>
+            <h2>Enfocados y comprometidos</h2>
+            <h2 className="highligth">en el cuidado de cada paciente</h2>
             <p className="description about__content-desc">Nuestra dedicación por el cuidado dental nos impulsa a ofrecerte la mejor experiencia para tu sonrisa. Con más de 15 años de trayectoria, somos líderes en transformar vidas a través de sonrisas radiantes.</p>
             
             <div className="choose__item-wrapper">

@@ -16,7 +16,11 @@ const quickList1=[
     },
     {
         path:"#",
-        display:"Contacto",
+        display:"Testimonios",
+    },
+    {
+        path:"#",
+        display:"Contáctanos",
     },
 ]
 
@@ -62,10 +66,10 @@ const Footer = () => {
                 <div className="footer__logo">
                     <h2>Dr. Carlos Maldonado</h2>
                     <p className="description">Cirujano Dentista</p>
-                    <p className="small__text description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem necessitatibus sit obcaecati adipisci eligendi hic, aut eum nemo in.</p>
+                    <p className="small__text description"> Líder en transformar vidas a través de sonrisas radiantes. Con más de 15 años de trayectoria en odontología, ofrecemos un cuidado excepcional a cada uno de los pacientes. Siendo la mejor opción para cuidar de tu salud oral.</p>
                 </div>
                 <div className="footer__quick-links">
-                    <h3 className="quick__links-title">Navegación</h3>
+                    <h3 className="quick__links-title">Menú</h3>
                     <ul className="quick__links">
                         {
                             quickList1.map((item,index)=>(

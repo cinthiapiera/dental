@@ -11,16 +11,16 @@ const Hero = ({theme}) => {
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>¡Sonríe sin límites!</h2>
-              <h2 className="highlight">Descubre el Poder de una Sonrisa Transformadora</h2>
+              <h2>¡Descubre el poder de una sonrisa renovada y </h2>
+              <h2 className="highlight">expresate sin límites!</h2>
             </div>
             <p className="description">
-            En el consultorio del Dr. Carlos Maldonado, el arte de una sonrisa radiante toma vida. Nuestro cuidado excepcional mejora tu salud oral y restaura la confianza en tu sonrisa. ¡Agenda tu cita ahora y déjate cautivar por la magia de sonreír!
+            En nuestro consultorio, nos enorgullecemos de ofrecer atención de primer nivel que mejora tu salud oral y restauramos tu confianza. ¡Agenda tu cita ahora y déjate cautivar por la magia de un nuevo comienzo! Permítenos ser tu aliado en el camino hacia una sonrisa más saludable y hermosa.
             </p>
           
             <div className="hero__btns">
               <button className="primary__btn"> Concertar una cita </button>
-              <button className="secondary__btn"> Descubrir más </button>
+              {/* <button className="secondary__btn"> Descubrir más </button> */}
             </div>
           </div>
 
