@@ -4,38 +4,38 @@ import '../../styles/services.css';
 const serviceData=[
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Rehabilitación Oral',
-    desc: 'Se compone de un tratamiento integral a través de prótesis fijas, removibles, implantes dentales y oclusión.'
+    title: 'Implantología',
+    desc: 'Reemplazo de dientes perdidos mediante la colocación quirúrgica de implantes dentales.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Ortodoncia',
-    desc: 'Se encarga de los problemas de los dientes y la mandíbula, corrigiéndolo con dispositivos fijos: brackets convecionales, brackets autoligantes y ortolingual.'
+    title: 'Rehabilitación Oral',
+    desc: 'Tratamiento integral con prótesis fijas, removibles, implantes dentales y corrección de oclusión.'
   },
   {
     icon: 'ri-arrow-left-up-line',
     title: 'Odontopediatría',
-    desc: 'Se basa en el cuidado de los dientes de los niños desde su nacimiento hasta que entran a la pubertad.'
-  },
-  {
-    icon: 'ri-arrow-left-up-line',
-    title: 'Periodoncia',
-    desc: 'Se encarga de la prevención, detención y tratamiento de las enfermedades que pueden afectar al tejido que le brindan soporte a los dientes.'
+    desc: 'Cuidado especializado para los dientes de los niños desde su nacimiento hasta la pubertad.'
   },
   {
     icon: 'ri-arrow-left-up-line',
     title: 'Estética Dental',
-    desc: 'Se encarga de solucionar problemas relacionados con la salud bucal y la armonía estética de la boca.'
+    desc: 'Soluciones personalizadas para mejorar la salud bucal y la armonía estética de la boca. Blanqueamiento, carillas y más.'
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Implantología',
-    desc: 'Se dedica al reemplazo de dientes perdidos mediante la colocación quirúrgica de un implante dental.'
+    title: 'Periodoncia',
+    desc: 'Prevención, detección y tratamiento de enfermedades que afectan el tejido de soporte de los dientes.'
+  },
+  {
+    icon: 'ri-arrow-left-up-line',
+    title: 'Ortodoncia',
+    desc: 'Corrección de problemas dentales y mandibulares con brackets convencionales, autoligables y ortodoncia lingual.'
   },
   {
     icon: 'ri-arrow-left-up-line',
     title: 'Cirugía Oral',
-    desc: 'Se encarga de procedimientos quirúrgicos en la boca y en la mandíbula.'
+    desc: 'Procedimientos quirúrgicos en la boca y mandíbula para restaurar y mejorar la función dental.'
   }
 ]
 
@@ -45,8 +45,8 @@ const Services = () => {
         <div className="container">
           <div className="service__top-content">
             <h6 className='subtitle'>Nuestros Tratamientos & Servicios</h6>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-            <h2 className='highligth'> Lorem dolore sit</h2>
+            <h2>Te ofrecemos una amplia gama de servicios para cuidar</h2>
+            <h2 className='highligth'>de tu salud oral y transformar tu sonrisa.</h2>
           </div>
 
           <div className="service__item-wrapper">

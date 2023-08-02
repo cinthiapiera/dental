@@ -5,19 +5,19 @@ import aboutImg from '../../images/about.png';
 
 const chooseData=[
   {
-    icon: 'ri-nurse-line',
-    title: 'Lorem dolore sit',
-    desc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum molestiae non pariatur, rem illo dolore similique saepe iusto ullam porro culpa dicta.'
-  },
-  {
-    icon: 'ri-team-line',
-    title: 'Lorem dolore sit',
-    desc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum molestiae non pariatur, rem illo dolore similique saepe iusto ullam porro culpa dicta.'
-  },
-  {
     icon: 'ri-customer-service-2-line',
-    title: '24/7 soporte',
-    desc:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum molestiae non pariatur, rem illo dolore similique saepe iusto ullam porro culpa dicta.'
+    title: 'Experiencia y Pasión',
+    desc:'Somos reconocidos por un enfoque cálido y profesional, creamos un ambiente acogedor donde te sentirás seguro y cómodo.'
+  },
+  {
+    icon: 'ri-nurse-line',
+    title: 'Excelencia en el Cuidado',
+    desc:'Cada paciente recibe atención personalizada y tratamientos de vanguardia para lograr resultados sobresalientes.'
+  },
+  {
+    icon: 'ri-nurse-line',
+    title: 'Tecnología Avanzada',
+    desc:'Contamos con tecnología innovadora para garantizar procedimientos precisos y mínimamente invasivos.'
   }
 ]
 
@@ -28,10 +28,10 @@ const About = () => {
         <div className="about__wrapper">
           <div className="about__content">
 
-            <h6 className="subtitle">Porque somos tu mejor opcion</h6>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-            <h2 className="highligth">Lorem dolore sit</h2>
-            <p className="description about__content-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, nisi corrupti. Nemo in porro hic iure, fuga accusantium modi assumenda delectus quae harum voluptate totam. Dignissimos atque amet debitis praesentium!</p>
+            <h6 className="subtitle">Por qué somos tu mejor opción</h6>
+            <h2>¡Descubre con nosotros el arte de sonreír</h2>
+            <h2 className="highligth">en nuestro consultorio dental!</h2>
+            <p className="description about__content-desc">Nuestra dedicación por el cuidado dental nos impulsa a ofrecerte la mejor experiencia para tu sonrisa. Con más de 15 años de trayectoria, somos líderes en transformar vidas a través de sonrisas radiantes.</p>
             
             <div className="choose__item-wrapper">
               {

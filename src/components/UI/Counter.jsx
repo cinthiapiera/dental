@@ -3,15 +3,15 @@ import '../../styles/counter.css';
 
 const counterData=[
   {
-    number: '3k',
+    number: '5,000',
     text: 'Pacientes satisfechos',
   },
   {
-    number: 350,
+    number: '10,000',
     text: 'Tratamientos realizados',
   },
   {
-    number: 900,
+    number: '500',
     text: 'Casos de exito',
   }
 ]

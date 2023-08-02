@@ -11,10 +11,12 @@ const Hero = ({theme}) => {
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>Obtenga ayuda y atención experta en cada visita.</h2>
-              <h2 className="highlight">Valoramos y escuchamos las necesidades específicas de nuestros clientes.</h2>
+              <h2>¡Sonríe sin límites!</h2>
+              <h2 className="highlight">Descubre el Poder de una Sonrisa Transformadora</h2>
             </div>
-            <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione inventore eos illum similique voluptatibus? Doloremque ipsum ad quis, deleniti sapiente cumque recusandae, placeat, maxime blanditiis fuga quisquam velit cum!</p>
+            <p className="description">
+            En el consultorio del Dr. Carlos Maldonado, el arte de una sonrisa radiante toma vida. Nuestro cuidado excepcional mejora tu salud oral y restaura la confianza en tu sonrisa. ¡Agenda tu cita ahora y déjate cautivar por la magia de sonreír!
+            </p>
           
             <div className="hero__btns">
               <button className="primary__btn"> Concertar una cita </button>

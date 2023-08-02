@@ -30,7 +30,7 @@ const Header = ({theme, toogleTheme}) => {
       <div className="container">
         <div className="nav__wrapper">
           <div className="logo">
-            <h2> Dr.Maldonado </h2>
+            <h2> Dr. Carlos Maldonado </h2>
           </div>
 
           {/* navegacion */}
