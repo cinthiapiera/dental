@@ -24,11 +24,6 @@ const serviceData=[
   },
   {
     icon: 'ri-arrow-left-up-line',
-    title: 'Periodoncia',
-    desc: 'Prevención, detección y tratamiento de enfermedades que afectan el tejido de soporte de los dientes.'
-  },
-  {
-    icon: 'ri-arrow-left-up-line',
     title: 'Ortodoncia',
     desc: 'Corrección de problemas dentales y mandibulares con brackets convencionales, autoligables y ortodoncia lingual.'
   },
@@ -36,6 +31,11 @@ const serviceData=[
     icon: 'ri-arrow-left-up-line',
     title: 'Cirugía Oral',
     desc: 'Procedimientos quirúrgicos en la boca y mandíbula para restaurar y mejorar la función dental.'
+  },
+  {
+    icon: 'ri-arrow-left-up-line',
+    title: 'Periodoncia',
+    desc: 'Prevención, detección y tratamiento de enfermedades que afectan el tejido de soporte de los dientes.'
   }
 ]
 

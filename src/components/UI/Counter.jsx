@@ -12,7 +12,7 @@ const counterData=[
   },
   {
     number: '500',
-    text: 'Casos de exito',
+    text: 'Tratamientos Integrales',
   }
 ]
 

@@ -7,7 +7,7 @@ const chooseData=[
   {
     icon: 'ri-customer-service-2-line',
     title: 'Experiencia y Pasión',
-    desc:'Somos reconocidos por un enfoque cálido y profesional, creamos un ambiente acogedor donde te sentirás seguro y cómodo.'
+    desc:'Con un enfoque humano y profesional, creamos un ambiente acogedor donde te sentirás seguro y cómodo.'
   },
   {
     icon: 'ri-nurse-line',
@@ -17,7 +17,7 @@ const chooseData=[
   {
     icon: 'ri-nurse-line',
     title: 'Tecnología Avanzada',
-    desc:'Contamos con tecnología innovadora para garantizar procedimientos precisos y mínimamente invasivos.'
+    desc:'Realizamos procedimientos precisos y mínimamente invasivos, priorizando la bioseguridad de nuestros pacientes.'
   }
 ]
 
