@@ -38,20 +38,20 @@
 .light-theme {
   --body-bg: rgb(255, 255, 255);
   --heading-color: #0c123d;
-  --btn-secondary-bg: #816aff;
+  --btn-secondary-bg: #0047ff;
   --btn-primary-bg: #fff;
-  --primary-color: #816aff;
+  --primary-color: #0047ff;
   --counter-color: #fff;
-  --counter-section-bg: #816aff;
+  --counter-section-bg: #0047ff; 
   --link-color: #0c123d;
-  --link-active: #816aff
+  --link-active: #0047ff;
   --information-bg: linear-gradient(
     180deg,
     rgba(189, 243, 255, 1) 29%,
     rgba(193, 243, 255, 1) 50%,
     rgba(226, 250, 255, 1) 78%
   );
-  -small-text-color:#000;
+  --small-text-color:#000;
   --card-bg:#fff;
   --testimonial-bg: #f7f7f7;
   --team-card-bg: #fff;
@@ -99,4 +99,18 @@ section{
   color: var(--primary-color);
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.light-theme .counter{
+  background: var(--counter-section-bg);
+}
+
+.light-theme .secondary__btn{
+  border: 1px solid var(--primary-color);
+  color: #051d40;
+  font-weight: 600;
+}
+
+.light-theme a{
+  font-weight: 500;
 }

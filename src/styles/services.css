@@ -16,7 +16,7 @@
 }
 
 .services__item{
-    background: var(--icon-bg);
+    /* background: var(--icon-bg); */
     width: 23%;
     padding: 30px 15px;
     text-align: center;
@@ -36,6 +36,14 @@
     border-radius: 5px;
     margin-bottom: 30px;
     border: 1px solid var(--primary-color);
+}
+
+.light-theme .service__icon{
+    background-color: var(--primary-color);
+}
+
+.light-theme .service__icon i{
+    color: #fff;
 }
 
 .service__icon i{

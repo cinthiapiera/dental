@@ -8,24 +8,24 @@ import Services from './components/UI/Services';
 import About from './components/UI/About';
 import Testimonial from './components/UI/Testimonial';
 import Contact from './components/UI/Contact';
-import Footer from './components/UI/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
-  const [theme, setTheme] = useState("");
+  const [ theme, setTheme] = useState('');
 
   const toggleTheme = () => {
-    theme === "" ? setTheme("light-theme") : setTheme("");
+    theme === '' ? setTheme('light-theme') : setTheme('')
   }
 
   useEffect(()=>{
-    document.body.className = theme;
-  },[theme]);
+    document.body.className = theme
+  },[theme])
 
   return (
         <>
-         <Header theme={theme} toggleTheme={toggleTheme} />
-         <Hero theme={theme} />
+         <Header theme={theme} toogleTheme={toggleTheme}/>
+         <Hero theme={theme}/>
          <Counter/>
          <About/>
          <Services/>

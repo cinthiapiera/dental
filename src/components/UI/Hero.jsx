@@ -25,7 +25,7 @@ const Hero = ({theme}) => {
           </div>
 
           <div className="hero__img">
-            <img src={theme === "light-theme" ? lightImg : heroDarkImg} alt=""/>
+            <img src={ theme === 'light-theme' ? lightImg : heroDarkImg} alt="pacient-img"/>
           </div>
         </div>
       </div>

@@ -18,11 +18,25 @@
 }
 
 .information__call{
-    /* padding: 0.4rem 8rem; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.light-theme .information{
+    background: linear-gradient(
+    180deg,
+    rgba(189, 243, 255, 1) 29%,
+    rgba(193, 243, 255, 1) 50%,
+    rgba(226, 250, 255, 1) 78%
+    );
+}
+
+.light-theme .call__btn{
+    background: var(--primary-color);
+    color: #fff;
+}
+
 /* 
 .information__social  span a i{
     padding: 10px 10px;

@@ -13,7 +13,7 @@ const Contact = () => {
           </div>
 
           <div className="information__call">
-            <button className='secondary__btn'>Escribenos al whatsapp</button>
+            <button className='secondary__btn call__btn'>Escribenos al whatsapp</button>
           </div>
 
           {/* <div className="information__social">

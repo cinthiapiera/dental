@@ -1,4 +1,3 @@
-//rafce
 import React from 'react';
 import './header.css';
 import logo from '../../images/logo_dental_white.svg';
@@ -23,8 +22,7 @@ const nav__links = [
 ]
 
 const Header = ({theme, toogleTheme}) => {
-  console.log("estoy aqui")
-  console.log(theme, toogleTheme);
+
 
   return (
     <header className="header">
@@ -54,7 +52,7 @@ const Header = ({theme, toogleTheme}) => {
           <div className="light__mode">
             <span onClick={toogleTheme}>
               {
-                theme === "light-theme" ? 
+                theme === 'light-theme' ? 
                 (<span><i class="ri-moon-line"></i>Modo Oscuro</span>) : 
                 (<span><i class="ri-sun-line"></i>Modo Claro</span>)
               }

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/footer.css';
+import '../Footer/footer.css';
 import logo from '../../images/logo_dental_white.svg';
 
 const quickList1=[
