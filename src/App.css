@@ -3,24 +3,26 @@
 
 /* css variables*/
 :root {
-  --primary-color: #83B3C0;
+  --primary-color: #b1d4e0;
   --heading-color: #fff;
-  --btn-primary-bg: #83B3C0;
-  --btn-secondary-bg: #447987;
-  --team-card-bg: #1b2352;
+  --btn-primary-bg: #56aeff;
+  --btn-secondary-bg: #143451;
+  --team-card-bg: #051d40;
   --link-color: #fff;
   --link-active: #83B3C0;
   --card-bg: linear-gradient(
-    45deg,
-    rgba(68,121,135,1) 57%,
-    rgba(131,179,192,1) 85%
+    90deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 100%
   );
   --counter-color: linear-gradient(
     90deg,
-    rgba(131,179,192,1) 50%,
-    rgba(68,121,135,1) 85%
+    rgba(86,174,255,1) 5%,
+    rgba(177,212,224,1) 50%,
+    rgba(86,174,255,1) 100%
   );
-  --body-bg: rgb(20, 52, 82);
+  /* --body-bg: rgb(20, 52, 82); */
+  --body-bg: rgb(5, 30, 66);
   --newsletter-bg: linear-gradient(
     /* 90deg,
     rgba(68,121,135,1) 55%,
@@ -29,10 +31,10 @@
     rgba(68,121,135,1) 57%,
     rgba(131,179,192,1) 85%
   );
-  --testimonial-bg: #447987;
+  --testimonial-bg: #143451;
   --font-name: "Poppins", sans-serif;
   --small-text-color: rgba(255, 255, 255, 0.774);
-  --icon-bg:#447987;
+  --icon-bg:#143451;
 }
 
 .light-theme {
@@ -83,7 +85,7 @@ section{
 }
 
 .container{
-  width: 1140px;
+  width: 1240px;
   padding: 0px 15px;
   margin: auto;
 }

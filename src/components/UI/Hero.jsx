@@ -11,7 +11,7 @@ const Hero = ({theme}) => {
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>¡Descubre el poder de una sonrisa renovada y </h2>
+              <h2>¡Descubre el poder de una sonrisa renovada y</h2>
               <h2 className="highlight">expresate sin límites!</h2>
             </div>
             <p className="description">
@@ -20,7 +20,7 @@ const Hero = ({theme}) => {
           
             <div className="hero__btns">
               <button className="primary__btn"> Concertar una cita </button>
-              {/* <button className="secondary__btn"> Descubrir más </button> */}
+              <button className="secondary__btn"> Descubrir más </button>
             </div>
           </div>
 

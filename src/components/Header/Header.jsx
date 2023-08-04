@@ -30,8 +30,9 @@ const Header = ({theme, toogleTheme}) => {
     <header className="header">
       <div className="container">
         <div className="nav__wrapper">
+          
           <div className="logo">
-            <h2> <img src={logo} alt="logo_dental" /> Dr. Carlos Maldonado </h2>
+            <h2> <img src={logo} alt="logo_dental" />Dr. Carlos Maldonado</h2>
           </div>
 
           {/* navegacion */}
@@ -54,11 +55,12 @@ const Header = ({theme, toogleTheme}) => {
             <span onClick={toogleTheme}>
               {
                 theme === "light-theme" ? 
-                (<span><i className="ri-moon-line"></i>Modo Oscuro</span>) : 
-                (<span><i className="ri-sun-line"></i>Modo Claro</span>)
+                (<span><i class="ri-moon-line"></i>Modo Oscuro</span>) : 
+                (<span><i class="ri-sun-line"></i>Modo Claro</span>)
               }
             </span>
           </div>
+
         </div>
       </div>
     </header>
