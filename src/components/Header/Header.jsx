@@ -1,6 +1,7 @@
 //rafce
 import React from 'react';
 import './header.css';
+import logo from '../../images/logo_dental_white.svg';
 
 const nav__links = [
   {
@@ -30,7 +31,7 @@ const Header = ({theme, toogleTheme}) => {
       <div className="container">
         <div className="nav__wrapper">
           <div className="logo">
-            <h2> Dr. Carlos Maldonado </h2>
+            <h2> <img src={logo} alt="logo_dental" /> Dr. Carlos Maldonado </h2>
           </div>
 
           {/* navegacion */}
