@@ -3,37 +3,37 @@ import '../../styles/services.css';
 
 const serviceData=[
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Implantología',
     desc: 'Reemplazo de dientes perdidos mediante la colocación quirúrgica de implantes dentales.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Rehabilitación Oral',
     desc: 'Tratamiento integral con prótesis fijas, removibles, implantes dentales y corrección de oclusión.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Odontopediatría',
     desc: 'Cuidado especializado para los dientes de los niños desde su nacimiento hasta la pubertad.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Estética Dental',
     desc: 'Soluciones personalizadas para mejorar la salud bucal y la armonía estética de la boca. Blanqueamiento, carillas y más.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Ortodoncia',
     desc: 'Corrección de problemas dentales y mandibulares con brackets convencionales, autoligables y ortodoncia lingual.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Cirugía Oral',
     desc: 'Procedimientos quirúrgicos en la boca y mandíbula para restaurar y mejorar la función dental.'
   },
   {
-    icon: 'ri-arrow-left-up-line',
+    icon: 'ri-check-line',
     title: 'Periodoncia',
     desc: 'Prevención, detección y tratamiento de enfermedades que afectan el tejido de soporte de los dientes.'
   }

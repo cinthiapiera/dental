@@ -1,18 +1,30 @@
-.newsletter{
-    background: var(--newsletter-bg);
+.information{
+    background: var(--information-bg);
 }
 
-.newsletter__wrapper{
+.information__wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.newsletter__content, .newsletter__social{
+.information__content, .information__call{
     width: 50%;
 }
 
-.newsletter__social  span a i{
+.information__content{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.information__call{
+    /* padding: 0.4rem 8rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.information__social  span a i{
     padding: 10px 10px;
     color: var(--primary-color);
     font-size: 2.5rem;
@@ -24,9 +36,9 @@
     border: 1px solid var(--primary-color);
 }
 
-.newsletter__social{
+.information__social{
     padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
