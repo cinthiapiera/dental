@@ -21,7 +21,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section>
+    <section id="testimonial">
       <div className="container">
         <div className="slider__content-top">
           <h6 className="subtitle">Testimonios de nuestros pacientes</h6>
