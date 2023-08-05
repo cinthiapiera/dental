@@ -73,16 +73,16 @@
     background: #272629;
 }
 
-.light-theme .header__shrink{
-    background: #f7f7f7;
-    box-shadow: 2px 2px 10px -2px #ddd;
-}
-
 .mobile__menu{
     color: #fff;
     font-size: 1.3rem;
     cursor: pointer;
     display: none;
+}
+
+.light-theme .header__shrink{
+    background: #f7f7f7;
+    box-shadow: 2px 2px 10px -2px #ddd;
 }
 
 .light-theme .mobile__menu{
@@ -137,7 +137,7 @@
         font-size: 1rem;
     }
 
-    .log h2{
+    .logo h2{
         font-size: 1.3rem;
     }
 }
