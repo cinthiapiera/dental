@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/hero.css';
 
 import heroDarkImg from '../../images/hero-img.png';
-import lightImg from '../../images/Test_1.png';
+// import lightImg from '../../images/Test_1.png';
 
 const Hero = ({theme}) => {
   return (
@@ -25,7 +25,7 @@ const Hero = ({theme}) => {
           </div>
 
           <div className="hero__img">
-            <img src={ theme === 'light-theme' ? lightImg : heroDarkImg} alt="pacient-img"/>
+            <img src={ theme === 'light-theme' ? heroDarkImg : heroDarkImg} alt="pacient-img"/>
           </div>
         </div>
       </div>

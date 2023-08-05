@@ -16,7 +16,6 @@
 }
 
 .services__item{
-    /* background: var(--icon-bg); */
     width: 23%;
     padding: 30px 15px;
     text-align: center;
@@ -52,7 +51,11 @@
 }
 
 .service__title{
-    color: var(--primary-color);
+    color: #fff;
     font-size: 1.3rem;
     margin-bottom: 30px;
+}
+
+.light-theme .service__title{
+    color: var(--primary-color);
 }

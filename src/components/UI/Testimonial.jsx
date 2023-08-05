@@ -9,11 +9,12 @@ import t3 from '../../images/Test_3.png';
 const Testimonial = () => {
 
   const settings = {
+    arrows:false,
     dots: false,
     infinite: true,
     speed: 1000,
     autoplay:true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,

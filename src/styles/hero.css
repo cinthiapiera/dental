@@ -47,11 +47,20 @@
 }
 
 .primary__btn{
-  background: var(--btn-secondary-bg);
-  border: 1px solid var(--btn-primary-bg);
+   background: var(--btn-primary-bg);
+   border: 1px solid var(--btn-secondary-bg);
 }
 
 .secondary__btn{
-  background: var(--btn-primary-bg);
+    background: var(--btn-secondary-bg);
+}
+
+.light-theme .primary__btn{
+    background: var(--btn-secondary-bg);
+    /* border: 1px solid var(--btn-primary-bg); */
+}
+
+.light-theme .secondary__btn{
+    background: var(--btn-primary-bg);
 }
 

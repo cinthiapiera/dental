@@ -1,3 +1,7 @@
+.counter{
+    background: #272629;
+}
+
 .counter__wrapper{
     display: flex;
     align-items: center;

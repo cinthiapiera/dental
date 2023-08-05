@@ -3,26 +3,20 @@
 
 /* css variables*/
 :root {
-  --primary-color: #b1d4e0;
+  --primary-color: #0047ff;
   --heading-color: #fff;
-  --btn-primary-bg: #56aeff;
-  --btn-secondary-bg: #143451;
-  --team-card-bg: #051d40;
+  --btn-primary-bg: #0047ff;
+  --btn-secondary-bg: #272629;
+  --team-card-bg: #272629;
   --link-color: #fff;
-  --link-active: #83B3C0;
-  --card-bg: linear-gradient(
+  --link-active: #0047ff;
+  /* --card-bg: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.2) 0%,
     rgba(255, 255, 255, 0.1) 100%
-  );
-  --counter-color: linear-gradient(
-    90deg,
-    rgba(86,174,255,1) 5%,
-    rgba(177,212,224,1) 50%,
-    rgba(86,174,255,1) 100%
-  );
-  /* --body-bg: rgb(20, 52, 82); */
-  --body-bg: rgb(5, 30, 66);
+  ); */
+  --counter-color: #fff;
+  --body-bg: #131115;
   --information-bg: linear-gradient(
     90deg,
     rgba(27, 9, 115, 1) 20%,
@@ -37,9 +31,9 @@
 
 .light-theme {
   --body-bg: rgb(255, 255, 255);
-  --heading-color: #0c123d;
-  --btn-secondary-bg: #0047ff;
+  --heading-color: #131115;
   --btn-primary-bg: #fff;
+  --btn-secondary-bg: #0047ff;
   --primary-color: #0047ff;
   --counter-color: #fff;
   --counter-section-bg: #0047ff; 
@@ -51,7 +45,7 @@
     rgba(193, 243, 255, 1) 50%,
     rgba(226, 250, 255, 1) 78%
   );
-  --small-text-color:#000;
+  --small-text-color:#131115;
   --card-bg:#fff;
   --testimonial-bg: #f7f7f7;
   --team-card-bg: #fff;
@@ -107,7 +101,7 @@ section{
 
 .light-theme .secondary__btn{
   border: 1px solid var(--primary-color);
-  color: #051d40;
+  color: #131115;
   font-weight: 600;
 }
 

@@ -1,5 +1,5 @@
 .information{
-    background: var(--information-bg);
+    background: var(--team-card-bg);
 }
 
 .information__wrapper{
@@ -23,13 +23,12 @@
     justify-content: center;
 }
 
+.call__btn{
+    background: var(--btn-primary-bg);
+}
+
 .light-theme .information{
-    background: linear-gradient(
-    180deg,
-    rgba(189, 243, 255, 1) 29%,
-    rgba(193, 243, 255, 1) 50%,
-    rgba(226, 250, 255, 1) 78%
-    );
+    background: var(--primary-color);
 }
 
 .light-theme .call__btn{

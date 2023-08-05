@@ -17,7 +17,7 @@
 }
 
 .footer__logo h2{
-    color: var(--primary-color);
+    color: var(--heading-color);
     display: flex;
     align-items: center;
 }
