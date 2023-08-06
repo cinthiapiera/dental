@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import './header.css';
-import logo from '../../images/logo_dental_white.svg';
+import logoWhite from '../../images/logo_dental_white.svg';
+import logoBlue from '../../images/logo_dental_blue.svg';
 
 const nav__links = [
   {
@@ -63,7 +64,7 @@ const Header = ({theme, toogleTheme}) => {
         <div className="nav__wrapper">
           
           <div className="logo">
-            <h2> <img src={logo} alt="logo_dental" />Dr. Carlos Maldonado</h2>
+            <h2><img src={ theme === 'light-theme' ? logoBlue : logoWhite} alt="pacient-img"/>Dr. Carlos Maldonado</h2>
           </div>
 
           {/* navegacion */}

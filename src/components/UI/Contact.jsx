@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="container">
         <div className="contact__wrapper">
           <div className="contact__content">
-            <h2>Contacto</h2>
+            <h2 className='highlight'>Contáctanos</h2>
             <div className="info__item-wrapper">
               {
                 infoData2.map((item,index)=>(

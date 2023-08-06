@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Footer/footer.css';
-import logo from '../../images/logo_dental_white.svg';
+import logoWhite from '../../images/logo_dental_white.svg';
+import logoBlue from '../../images/logo_dental_blue.svg';
 
 const quickList1=[
     {
@@ -79,7 +80,7 @@ const quickList3=[
     }
 ]
 
-const Footer = () => {
+const Footer = ({theme}) => {
 
     const year = new Date().getFullYear();
 
@@ -88,9 +89,9 @@ const Footer = () => {
         <div className="container">
             <div className="footer__wrapper">
                 <div className="footer__logo">
-                    <h2><img src={logo} alt="footer-logo" />Dr. Carlos Maldonado</h2>
+                    <h2><img src={ theme === 'light-theme' ? logoBlue : logoWhite} alt="logo-dental"/>Dr. Carlos Maldonado</h2>
                     <p className="subtitle__text description">Cirujano Dentista - Rehab. Oral y Estética</p>
-                    <p className="small__text description"> Líder en transformar vidas a través de sonrisas radiantes. Con más de 15 años de trayectoria en odontología, ofrecemos un cuidado excepcional a cada uno de los pacientes. Siendo la mejor opción para cuidar de tu salud oral.</p>
+                    <p className="small__text description"> Líder en transformar vidas a través de sonrisas radiantes. Con más de 15 años de trayectoria en odontología, ofrece un cuidado excepcional a cada uno de sus pacientes. Siendo la mejor opción para cuidar de tu salud oral.</p>
                 </div>
                 <div className="footer__quick-links">
                     <h3 className="quick__links-title">Menú</h3>

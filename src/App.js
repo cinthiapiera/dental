@@ -31,7 +31,7 @@ function App() {
          <Services/>
          <Testimonial/>
          <Contact/>
-         <Footer/>
+         <Footer theme={theme}/>
         </>
   );
 }
