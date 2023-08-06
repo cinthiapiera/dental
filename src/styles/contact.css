@@ -1,39 +1,90 @@
-.information{
-    background: var(--team-card-bg);
+.contact{
+    background: #272629;
 }
 
-.information__wrapper{
+.contact__wrapper{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    column-gap: 2rem;
 }
 
-.information__content, .information__call{
+.contact__content, .contact__maps{
     width: 50%;
 }
 
-.information__content{
-    text-align: center;
-    margin-bottom: 15px;
+.contact__content{
+    color: var(--primary-color);
 }
 
-.information__call{
+.contact__maps iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.info__item-wrapper{
+    margin-top: 20px;
+}
+
+.info__us-item{
+    padding: 2px 2px 2px 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 15px;
+}
+
+.info__us-icon{
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
 }
 
-.call__btn{
-    background: var(--btn-primary-bg);
+.info__us-icon i{
+    color: var(--primary-color);
+    font-size: 1.5rem;
 }
 
-.light-theme .information{
-    background: var(--primary-color);
-}
-
-.light-theme .call__btn{
-    background: var(--primary-color);
+.info__us-title{
     color: #fff;
+    font-weight: 500;
+}
+
+.light-theme .contact{
+    background: #f7f7f7;
+}
+
+.light-theme .info__us-title{
+    color: var(--primary-color) !important;
+}
+
+@media only screen and (max-width: 992px){
+    .contact__content h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contact__wrapper{
+        flex-direction: column;
+    }
+
+    .contact__content, .contact__maps{
+        width: 100%;
+    }
+
+    .contact__content{
+        margin-bottom: 30px;
+    }
+
+    .contact__maps iframe{
+        height: 400px;
+    }
 }
 
 /* 

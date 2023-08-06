@@ -52,6 +52,13 @@
     margin-bottom: 20px;
 }
 
+.quick__link-item i{
+    color: #0047ff;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
 .quick__link-item a{
     font-size: 0.9rem;
     font-weight: 300;
@@ -76,4 +83,31 @@
 
 .light-theme .copyright{
     color: #555;
+}
+
+@media only screen and (max-width: 768px){
+    .footer__logo{
+        width: 50%;
+    }
+
+    .footer__wrapper{
+        flex-wrap: wrap;
+        column-gap: 1.5rem !important;
+        row-gap: 1.5rem;
+    }
+
+    .footer__logo h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .footer__quick-links{
+        width: 47%;
+    }
+
+    .footer__logo {
+        width: 70%;
+    }
 }

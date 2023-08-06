@@ -86,8 +86,8 @@ const Header = ({theme, toogleTheme}) => {
             <span onClick={toogleTheme}>
               {
                 theme === 'light-theme' ? 
-                (<span><i class="ri-moon-line"></i>Modo Oscuro</span>) : 
-                (<span><i class="ri-sun-line"></i>Modo Claro</span>)
+                (<span><i class="ri-moon-line"></i>Oscuro</span>) : 
+                (<span><i class="ri-sun-line"></i>Claro</span>)
               }
             </span>
           </div>
