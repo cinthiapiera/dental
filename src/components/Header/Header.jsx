@@ -22,7 +22,7 @@ const nav__links = [
   },
   {
     path: '#contact',
-    display: 'Contacto'
+    display: 'Contáctanos'
   }
 ]
 
