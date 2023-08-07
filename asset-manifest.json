@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dental/static/css/main.13e3c391.css",
+    "main.js": "/dental/static/js/main.411c2558.js",
+    "static/media/remixicon.svg?t=1687271883607": "/dental/static/media/remixicon.636515c9a8963df4380d.svg",
+    "static/media/about.png": "/dental/static/media/about.dac30c1e34a7b89bf0c7.png",
+    "static/media/remixicon.eot?t=1687271883607": "/dental/static/media/remixicon.83e9a22ce7f199999169.eot",
+    "static/media/remixicon.ttf?t=1687271883607": "/dental/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
+    "static/media/Test_1.png": "/dental/static/media/Test_1.dcaeb9f9c665965f0a28.png",
+    "static/media/Test_3.png": "/dental/static/media/Test_3.97121194d087af045fc1.png",
+    "static/media/Test_2.png": "/dental/static/media/Test_2.68e279517cd0f6aa5273.png",
+    "static/media/hero-light-img.png": "/dental/static/media/hero-light-img.0995c01c4513ac4af6bc.png",
+    "static/media/hero-dark-img.png": "/dental/static/media/hero-dark-img.c4b0ccc06091b26370de.png",
+    "static/media/remixicon.woff?t=1687271883607": "/dental/static/media/remixicon.3f0f84f17d39491e07ff.woff",
+    "static/media/remixicon.woff2?t=1687271883607": "/dental/static/media/remixicon.85992a032c7668836563.woff2",
+    "static/media/logo_dental_white.svg": "/dental/static/media/logo_dental_white.9f1f87a303361b612d6f09697b280200.svg",
+    "static/media/logo_dental_blue.svg": "/dental/static/media/logo_dental_blue.93b04a2da16f44016561ab2d0ee98c19.svg",
+    "static/media/slick.svg": "/dental/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dental/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dental/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dental/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dental/index.html",
+    "main.13e3c391.css.map": "/dental/static/css/main.13e3c391.css.map",
+    "main.411c2558.js.map": "/dental/static/js/main.411c2558.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13e3c391.css",
+    "static/js/main.411c2558.js"
+  ]
+}
