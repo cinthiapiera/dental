@@ -20,6 +20,7 @@ const Counter = () => {
   return (
     <section className="counter">
       <div className="container">
+
         <div className="counter__wrapper">
           {
             counterData.map((item,index)=>(
@@ -29,8 +30,8 @@ const Counter = () => {
               </div>
             ))
           }
-          
         </div>
+        
       </div>
     </section>
   )

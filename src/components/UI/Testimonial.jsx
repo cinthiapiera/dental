@@ -27,8 +27,10 @@ const Testimonial = () => {
           <h6 className="subtitle">Testimonios de nuestros pacientes</h6>
           <h2> Valoramos su <span className="highligth">confianza y patrocinio</span></h2>
         </div>
+
         <div className="slider__wrapper">
           <Slider {...settings}>
+
               <div className="slider__item">
                 <p className="description">
                   Desde que conocí al Dr. Carlos Maldonado, mi sonrisa ha cambiado por completo. Su enfoque cálido y profesional me hizo sentir en buenas manos desde el principio. Me sorprendió la atención personalizada y la tecnología avanzada que utiliza en cada tratamiento. Gracias a él, ahora puedo sonreír con confianza en mis reuniones de negocios y presentaciones. ¡Altamente recomendado!
@@ -75,6 +77,7 @@ const Testimonial = () => {
               </div>
             </Slider>
         </div>
+        
       </div>
     </section>
   )

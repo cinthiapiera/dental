@@ -21,7 +21,6 @@ const infoData2=[
 
 const Contact = () => {
   return (
-
     <section id="contact" className="contact">
       <div className="container">
         <div className="contact__wrapper">
@@ -51,15 +50,6 @@ const Contact = () => {
         </div>
       </div>
     </section>
-
-
-          // <div className="information__social">
-          //   <span><a href="https://github.com/cinthiapiera" target="_blank" rel="noopener noreferrer"><i class="ri-whatsapp-fill"></i></a></span>
-          //   <span><a href="https://github.com/cinthiapiera" target="_blank" rel="noopener noreferrer"><i className="ri-facebook-box-fill"></i></a></span>
-          //   <span><a href="https://github.com/cinthiapiera" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-fill"></i></a></span>
-          //   <span><a href="https://github.com/cinthiapiera" target="_blank" rel="noopener noreferrer"><i class="ri-tiktok-fill"></i></a></span>
-          // </div>
-
   )
 }
 

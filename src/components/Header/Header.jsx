@@ -18,7 +18,7 @@ const nav__links = [
   },
   {
     path: '#testimonial',
-    display: 'Testimonial'
+    display: 'Testimonios'
   },
   {
     path: '#contact',
@@ -93,9 +93,10 @@ const Header = ({theme, toogleTheme}) => {
             </span>
           </div>
 
-            <span className="mobile__menu" onClick={toggleMenu}>
+          {/* menu escondido */}
+          <span className="mobile__menu" onClick={toggleMenu}>
             <i class="ri-menu-line"></i>
-            </span>
+          </span>
 
         </div>
       </div>

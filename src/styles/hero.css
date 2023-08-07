@@ -55,9 +55,12 @@
     background: var(--btn-secondary-bg);
 }
 
+.primary__btn i{
+    font-size: 1.5rem;
+ }
+
 .light-theme .primary__btn{
     background: var(--btn-secondary-bg);
-    /* border: 1px solid var(--btn-primary-bg); */
 }
 
 .light-theme .secondary__btn{

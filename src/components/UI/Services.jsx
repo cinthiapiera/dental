@@ -44,6 +44,7 @@ const Services = () => {
     <section id="services">
         <div className="container">
           <div className="services__top-content">
+            
             <h6 className='subtitle'>Nuestros Tratamientos & Servicios</h6>
             <h2>Te ofrecemos una amplia gama de servicios para cuidar</h2>
             <h2 className='highlight'>de tu salud oral y transformar tu sonrisa.</h2>
