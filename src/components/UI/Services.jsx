@@ -45,9 +45,9 @@ const Services = () => {
         <div className="container">
           <div className="services__top-content">
             
-            <h6 className='subtitle'>Nuestros Tratamientos & Servicios</h6>
-            <h2>Te ofrecemos una amplia gama de servicios para cuidar</h2>
-            <h2 className='highlight'>de tu salud oral y transformar tu sonrisa.</h2>
+            <h6 className='subtitle'>Nuestros servicios</h6>
+            <h2>Te ofrecemos una amplia gama de tratamientos para cuidar</h2>
+            <h2 className='highlight'>de tu salud oral y transformar tu sonrisa</h2>
           </div>
 
           <div className="service__item-wrapper">
