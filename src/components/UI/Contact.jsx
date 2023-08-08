@@ -14,8 +14,8 @@ const infoData2=[
   },
   {
     icon: 'ri-time-line',
-    title: 'Horario de Atención',
-    desc:'Lunes - Viernes: 8:00 - 18:00'
+    title: 'Horario de atención  (lun. - vie.)',
+    desc:'T.Mañana: 9:00 a 13:30 | T.Tarde: 15:30 a 21:30'
   }
 ]
 

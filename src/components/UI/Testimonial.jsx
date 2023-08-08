@@ -41,7 +41,7 @@ const Testimonial = () => {
                   </div>
                   <div>
                     <h5 className="customer__name">Cecilia Mendoza</h5>
-                    <p className="description">Ceo de Empresa Bancaria</p>
+                    <p className="description">CEO de Empresa Inmobiliaria</p>
                   </div>
                 </div>
               </div>

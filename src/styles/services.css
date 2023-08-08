@@ -1,6 +1,6 @@
 .services__top-content{
   text-align: center;
-  margin-bottom: 50px;    
+  margin-bottom: 50px;
 }
 
 .services__top-content .highlight{
@@ -21,33 +21,17 @@
   text-align: center;
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
-  cursor: pointer;
+  transition: 0.3s;
 }
 
-.service__icon{
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  background: var(--body-bg);
+.services__item:hover{
+  transform: translateY(-15px);
+}
+
+.service__img img{
+  width: 100% !important;
   border-radius: 5px;
   margin-bottom: 30px;
-  border: 1px solid var(--primary-color);
-}
-
-.light-theme .service__icon{
-  background-color: var(--primary-color);
-}
-
-.light-theme .service__icon i{
-  color: #fff;
-}
-
-.service__icon i{
-  font-size: 2rem;
-  color: var(--primary-color);
 }
 
 .service__title{

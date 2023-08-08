@@ -61,7 +61,7 @@ const quickList3=[
   {
     icon:'ri-whatsapp-line',
     path:"#",
-    display:"Whatsapp",
+    display:"WhatsApp",
   },
   {
     icon:'ri-facebook-circle-line',
@@ -136,7 +136,7 @@ const Footer = ({theme}) => {
           </div>
 
         </div>
-        <p className="copyright"><i className="ri-copyright-line"></i> Copyright {year}- Todos los Derechos Reservados <br/> Desarrollado por Cinthia Maldonado ✨</p>
+        <p className="copyright"><i className="ri-copyright-line"></i> Copyright {year} - Todos los Derechos Reservados <br/> Desarrollado por Cinthia Maldonado ✨</p>
       </div>
     </footer>
   )
