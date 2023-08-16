@@ -2,7 +2,7 @@
   "name": "dental",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cinthiapiera.github.io/dental/",
+  "homepage": "https://drcarlosmaldonado.site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo drcarlosmaldonado.site > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
