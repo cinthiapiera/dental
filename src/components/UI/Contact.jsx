@@ -4,18 +4,18 @@ import '../../styles/contact.css';
 const infoData2=[
   {
     icon: 'ri-map-pin-line',
-    title: 'Dirección',
+    title: 'Dirección:',
     desc:'Av. Gral. Antonio Alvarez de Arenales 1813 - 2 piso'
   },
   {
     icon: 'ri-phone-line',
-    title: 'Teléfono',
-    desc:'987-654-321'
+    title: 'Teléfono:',
+    desc:'+51 991 894 704'
   },
   {
     icon: 'ri-time-line',
-    title: 'Horario de atención  (lun. - vie.)',
-    desc:'T.Mañana: 9:00 a 13:30 | T.Tarde: 15:30 a 21:30'
+    title: 'Horarios: Lun. - Sáb. | Dom. (prev. cita)',
+    desc:'T.Mañana: 9:00 a 13:30 - T.Tarde: 15:30 a 21:30' 
   }
 ]
 

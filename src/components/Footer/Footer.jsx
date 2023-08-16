@@ -60,22 +60,22 @@ const quickList2=[
 const quickList3=[
   {
     icon:'ri-whatsapp-line',
-    path:"#",
+    path:"https://api.whatsapp.com/send?phone=+51984296197&text=¡Hola! Quiero agendar una cita.",
     display:"WhatsApp",
   },
   {
     icon:'ri-facebook-circle-line',
-    path:"#",
+    path:"https://www.facebook.com/DrCarlosMaldonado.Dental",
     display:"Facebook",
   },
   {
     icon:'ri-instagram-line',
-    path:"#",
+    path:"https://www.instagram.com/drcarlosmaldonado.dental",
     display:"Instagram",
   },
   {
     icon:'ri-tiktok-line',
-    path:"#",
+    path:"https://www.tiktok.com/@drcarlosmaldonado.dental",
     display:"Tiktok",
   }
 ]
@@ -128,7 +128,7 @@ const Footer = ({theme}) => {
                 quickList3.map((item,index)=>(
                   <li className="quick__link-item" key={index}>
                     <i class={item.icon}></i>
-                    <a href={item.path}>  {item.display}</a>
+                    <a href={item.path} target="_blank" rel="noopener noreferrer">  {item.display}</a>
                   </li>
                 ))
               }

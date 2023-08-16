@@ -57,7 +57,7 @@
 
 .primary__btn i{
     font-size: 1.5rem;
- }
+}
 
 .light-theme .primary__btn{
     background: var(--btn-secondary-bg);
