@@ -18,7 +18,7 @@ const Hero = ({theme}) => {
             <p className="description">En nuestro consultorio, nos caracterizamos por ofrecer atención de primer nivel, lo cual mejora tu salud oral y restaura tu confianza. ¡Agenda tu cita ahora y déjate cautivar por la magia de un nuevo comienzo! Permítenos ser tu aliado en el camino hacia una sonrisa más saludable y hermosa.</p>
           
             <div className="hero__btns">
-              <a className="primary__btn" href="https://api.whatsapp.com/send?phone=+51984296197&text=¡Hola! Quiero agendar una cita." target="_blank" rel="noopener noreferrer">
+              <a className="primary__btn" href="https://api.whatsapp.com/send?phone=+51991894704&text=¡Hola! Quiero agendar una cita." target="_blank" rel="noopener noreferrer">
                 <i className="ri-whatsapp-fill"></i> Agenda tu cita </a>
             </div>
           </div>

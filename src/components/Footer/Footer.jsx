@@ -60,7 +60,7 @@ const quickList2=[
 const quickList3=[
   {
     icon:'ri-whatsapp-line',
-    path:"https://api.whatsapp.com/send?phone=+51984296197&text=¡Hola! Quiero agendar una cita.",
+    path:"https://api.whatsapp.com/send?phone=+51991894704&text=¡Hola! Quiero agendar una cita.",
     display:"WhatsApp",
   },
   {
