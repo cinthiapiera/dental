@@ -13,7 +13,7 @@ const Hero = ({theme}) => {
           <div className="hero__content">
             <div>
               <h2>¡Descubre el poder de una sonrisa renovada</h2>
-              <h2 className="highlight">y expresate sin límites!</h2>
+              <h2 className="highlight">y exprésate sin límites!</h2>
             </div>
             <p className="description">En nuestro consultorio, nos caracterizamos por ofrecer atención de primer nivel, lo cual mejora tu salud oral y restaura tu confianza. ¡Agenda tu cita ahora y déjate cautivar por la magia de un nuevo comienzo! Permítenos ser tu aliado en el camino hacia una sonrisa más saludable y hermosa.</p>
           

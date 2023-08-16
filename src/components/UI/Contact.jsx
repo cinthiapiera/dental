@@ -5,7 +5,7 @@ const infoData2=[
   {
     icon: 'ri-map-pin-line',
     title: 'Dirección:',
-    desc:'Av. Gral. Antonio Alvarez de Arenales 1813 - 2 piso'
+    desc:'Av. Gral. Antonio Álvarez de Arenales, 1813 Lince - Piso 2'
   },
   {
     icon: 'ri-phone-line',
@@ -14,8 +14,8 @@ const infoData2=[
   },
   {
     icon: 'ri-time-line',
-    title: 'Horarios: Lun. - Sáb. | Dom. (prev. cita)',
-    desc:'T.Mañana: 9:00 a 13:30 - T.Tarde: 15:30 a 21:30' 
+    title: 'Horarios: Lun. - Sáb. | Dom. (previa cita)',
+    desc:'T. Mañana: 9:00 a 13:30 - T. Tarde: 15:30 a 21:30' 
   }
 ]
 
