@@ -12,10 +12,10 @@ import Footer from './components/Footer/Footer';
 
 function App() {
 
-  const [ theme, setTheme] = useState('');
+  const [ theme, setTheme] = useState('light-theme');
 
   const toggleTheme = () => {
-    theme === '' ? setTheme('light-theme') : setTheme('')
+    theme === 'light-theme' ? setTheme('') : setTheme('light-theme')
   }
 
   useEffect(()=>{
