@@ -1,0 +1,3 @@
+"homepage": "https://drcarlosmaldonado.site",
+
+"predeploy": "npm run build && echo drcarlosmaldonado.site > ./build/CNAME",
